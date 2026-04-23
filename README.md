@@ -26,6 +26,7 @@ The system utilizes the **Hamming (7,4)** algorithm to maintain data integrity:
 - **720P Hardened Output**: Forced 720-pixel vertical resolution for noise resistance.
 - **Smart Viewport**: Compact UI preview display while maintaining sharp HD file output.
 - **Tactical Aesthetics**: "Amber Monitoring Terminal" themed UI for field operations.
+- **Works With HAMLIB**: support RIG device with CAT Controller (Only Desktop App).
 
 ## 📱 Mobile Portability (Android)
 - **Field-Ready**: Connect your smartphone to a Handheld Transceiver (HT) via an audio interface cable.
@@ -45,8 +46,11 @@ The system utilizes the **Hamming (7,4)** algorithm to maintain data integrity:
 2. **Android**: Install the APK, grant Microphone permissions, and connect to your radio.
 3. **FEC Note**: Ensure **"Enable FEC (Hamming 7,4)"** is checked on both sides for maximum protection.
 
+## On Progress Feature
+1. Adding BBS Server (still in testing)
+
 ---
 **Developer Note**: 
 This project was independently developed by **YD1RUH** for tactical radio communication education.
 
-© 2026 YD1RUH. **Tactical_FSK_Modem** - *Correction in Silence, Clarity in Noise.*
+© 2026 YD1RUH. **Tactical_FSK_Modem**
