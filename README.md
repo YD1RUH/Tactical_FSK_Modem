@@ -24,6 +24,8 @@ The system offers selectable error correction algorithms to balance transmission
 
 ## ✨ Key Features
 - **Integrated BBS Server**: Fully functional Bulletin Board System module for automated text broadcasting (`/request_berita`) and responding to remote commands over the radio.
+  - **Desktop (Windows)**: Create a folder named `news` in the same directory as the `.exe` file and put your `.txt` files inside it.
+  - **Android**: Place your `.txt` files inside the `news` folder within the app's external data directory (usually located at `/storage/emulated/0/Documents/Tactical_FSK_Modem/news`).
 - **Advanced DSP Audio Controls**: Features **Automatic Gain Control (AGC)** for the receiver to normalize varying signal envelopes, alongside manual TX output gain adjustments.
 - **Hardware PTT (HAMLIB)**: Seamless CAT Controller integration (`rigctl`) for direct hardware PTT automation (Desktop App only).
 - **Auto-Reset & Sync Melody**: Specific tone sequences (1400Hz -> 1000Hz) for automatic RX canvas resets during MFSK image transmission.
