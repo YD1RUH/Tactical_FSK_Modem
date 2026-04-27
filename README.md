@@ -49,10 +49,11 @@ The system offers selectable error correction algorithms to balance transmission
 ## 🚀 How to Run
 1. **Windows**: Run `Tactical_FSK_Modem.exe`.
 2. **Setup**: Go to `Config > Modulation Configuration` to set your desired Baud Rate and select the optimal **FEC Mode**.
-3. **Hardware PTT**: (Optional) Go to `Config > Hamlib Configuration` to link your CAT-enabled radio.
-4. **Check RIG ID for Hamlib**: [Click This to show table](https://github.com/YD1RUH/Tactical_FSK_Modem/blob/main/RIG_table.md)
-5. **Transmit**: Input your text, select a file, or pick an image, then press `TRANSMIT`.
-6. **Android**: Install the APK, grant Microphone permissions, and connect to your radio via an audio link cable.
+3. **Install Hamlib**: you can download installer hamlib for windows from this [link](https://github.com/Hamlib/Hamlib/releases) 
+4. **Hardware PTT**: (Optional) Go to `Config > Hamlib Configuration` to link your CAT-enabled radio.
+5. **Check RIG ID for Hamlib**: [Click This to show table](https://github.com/YD1RUH/Tactical_FSK_Modem/blob/main/RIG_table.md)
+6. **Transmit**: Input your text, select a file, or pick an image, then press `TRANSMIT`.
+7. **Android**: Install the APK, grant Microphone permissions, and connect to your radio via an audio link cable.
 
 ---
 **Developer Note**: 
