@@ -121,7 +121,8 @@ The AGWPE Server window now includes an integrated **Receiver Buffer**, **Audio 
 
 | ![Hamlib Configuration](https://raw.githubusercontent.com/YD1RUH/Tactical_FSK_Modem/main/hamlib.png) | **Hamlib PTT Configuration** — Hardware PTT control via Hamlib `rigctld` daemon over TCP. The modem automatically asserts and releases PTT around every transmission, with configurable host, port, and pre/post-tone delay. |
 |---|---|
-
+- Download and install hamlib to use this feature: [Download Link](https://github.com/Hamlib/Hamlib/releases)
+- Check Your ID Device: [RIG Table](https://github.com/YD1RUH/Tactical_FSK_Modem/blob/main/RIG_table.md)
 ---
 
 ## 🐱 Tamagotchi Easter Egg
