@@ -76,6 +76,9 @@ All FEC modes are available across 2-Tone FSK, 8-FSK, and 16-FSK modulation type
 
 ## 📻 AGWPE TNC Server
 
+| ![AGWPE Server Window](https://raw.githubusercontent.com/YD1RUH/Tactical_FSK_Modem/main/AGWPE.png) | **AGWPE Server Configuration** — Built-in AGWPE 1.0-compatible TCP server with integrated Receiver Buffer, Audio Spectrum Waterfall, and Eye Diagram / Symbol Confidence panel. Full signal monitoring without leaving the AGWPE window. |
+|---|---|
+
 Built-in AGWPE 1.0-compatible TCP server enabling direct integration with popular APRS client software over the audio modem as a virtual TNC.
 
 **Compatible clients:** Xastir · APRSIS32 · UI-View32 · YAAC · APRSdroid · PinPoint APRS · and any AGW-compatible software.
@@ -95,17 +98,63 @@ Built-in AGWPE 1.0-compatible TCP server enabling direct integration with popula
 | `T` | Client → Server | Heartbeat / keepalive |
 | `m` / `k` | Client → Server | Enable UI monitor / raw AX.25 monitor |
 
-**AGWPE Server window** now includes an integrated **Receiver Buffer**, **Audio Spectrum Waterfall**, and **Eye Diagram / Symbol Confidence** panel — allowing full signal monitoring directly inside the AGWPE configuration window without switching to the main TX/RX terminal.
+The AGWPE Server window now includes an integrated **Receiver Buffer**, **Audio Spectrum Waterfall**, and **Eye Diagram / Symbol Confidence** panel — allowing full signal monitoring directly inside the AGWPE configuration window without switching to the main TX/RX terminal.
 
 ---
 
 ## 📊 Signal Visualization
 
-| Panel | Description |
+| Eye Diagram (2-Tone FSK) | Symbol Confidence (8-FSK / 16-FSK) |
 |---|---|
-| **Audio Spectrum Waterfall** | Real-time 2D frequency-time waterfall plot, auto-centered on active FSK tones. Available in TX/RX Terminal, Send File, and AGWPE windows. |
-| **Eye Diagram** | Phosphor-style eye diagram with 200-trace persistence. Active in 2-Tone FSK mode. |
-| **Symbol Confidence (Goertzel)** | Per-tone energy histogram via Goertzel DFT. Active in 8-FSK and 16-FSK modes. Shows real-time decoder confidence for all 8 or 16 tones. |
+| ![Eye Diagram](https://raw.githubusercontent.com/YD1RUH/Tactical_FSK_Modem/main/eye_diagram.png) | ![Symbol Confidence](https://raw.githubusercontent.com/YD1RUH/Tactical_FSK_Modem/main/symbol_confidence.png) |
+| *Phosphor-style persistence display — 200 overlaid traces. Shows signal timing quality and eye opening for 2-Tone FSK.* | *Per-tone Goertzel energy histogram for all 8 or 16 tones. Shows real-time decoder confidence per symbol.* |
+
+| Panel | Available In | Description |
+|---|---|---|
+| **Audio Spectrum Waterfall** | TX/RX Terminal · Send File · Send Image · AGWPE window | Real-time 2D frequency-time plot, auto-centered on active FSK tones |
+| **Eye Diagram** | All windows (2-Tone FSK mode) | Phosphor-style, 200-trace persistence, zero-crossing triggered |
+| **Symbol Confidence (Goertzel)** | All windows (8-FSK / 16-FSK mode) | Per-tone DFT energy histogram, switches automatically with modulation mode |
+
+---
+
+## 🎛️ Hamlib PTT Integration
+
+| ![Hamlib Configuration](https://raw.githubusercontent.com/YD1RUH/Tactical_FSK_Modem/main/hamlib.png) | **Hamlib PTT Configuration** — Hardware PTT control via Hamlib `rigctld` daemon over TCP. The modem automatically asserts and releases PTT around every transmission, with configurable host, port, and pre/post-tone delay. |
+|---|---|
+
+---
+
+## 🐱 Tamagotchi Easter Egg
+
+| ![Tamagotchi](https://raw.githubusercontent.com/YD1RUH/Tactical_FSK_Modem/main/cat_tamagotchi.png) | **Tamagotchi Easter Egg** — A virtual cat lives inside the modem. Hidden in the Menu bar. Feed it, keep it alive, and it will keep your signals strong. |
+|---|---|
+
+---
+
+## 💻 Platform Feature Comparison
+
+| Feature | Windows (Desktop) | Android |
+|---|:---:|:---:|
+| **2-Tone FSK** | ✅ | ✅ |
+| **8-FSK (12 presets)** | ✅ | ✅ |
+| **16-FSK (6 presets)** | ✅ | ✅ |
+| **MFSK Image TX/RX** | ✅ | ✅ |
+| **FEC (Hamming / RS / Viterbi / LDPC)** | ✅ | ✅ |
+| **Audio Spectrum Waterfall** | ✅ | ✅ |
+| **Eye Diagram** | ✅ | ✅ |
+| **Symbol Confidence (Goertzel)** | ✅ | ✅ |
+| **Send File** | ✅ | ✅ |
+| **Send Image (MFSK)** | ✅ | ✅ |
+| **Integrated BBS Server** | ✅ | ✅ |
+| **AGWPE TNC Server** | ✅ | ❌ |
+| **Hamlib PTT (rigctld)** | ✅ | ❌ |
+| **Receiver Buffer in AGWPE window** | ✅ | ❌ |
+| **Waterfall + Eye/Symbol in AGWPE window** | ✅ | ❌ |
+| **Integrated DSP AGC** | ✅ | ✅ |
+| **Smart Auto-Docking UI** | ❌ | ✅ |
+| **JNI File Picker / Export** | ❌ | ✅ |
+| **Tamagotchi Easter Egg** | ✅ | ✅ |
+| **Civilian Build (no crypto / no TAK)** | ✅ | N/A |
 
 ---
 
