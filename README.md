@@ -137,12 +137,12 @@ The AGWPE Server window now includes an integrated **Receiver Buffer**, **Audio 
 |---|:---:|:---:|
 | **2-Tone FSK** | ✅ | ✅ |
 | **8-FSK (12 presets)** | ✅ | ✅ |
-| **16-FSK (6 presets)** | ✅ | ✅ |
+| **16-FSK (6 presets)** | ✅ | ❌ |
 | **MFSK Image TX/RX** | ✅ | ✅ |
 | **FEC (Hamming / RS / Viterbi / LDPC)** | ✅ | ✅ |
 | **Audio Spectrum Waterfall** | ✅ | ✅ |
-| **Eye Diagram** | ✅ | ✅ |
-| **Symbol Confidence (Goertzel)** | ✅ | ✅ |
+| **Eye Diagram** | ✅ | ❌ |
+| **Symbol Confidence (Goertzel)** | ✅ | ❌ |
 | **Send File** | ✅ | ✅ |
 | **Send Image (MFSK)** | ✅ | ✅ |
 | **Integrated BBS Server** | ✅ | ✅ |
@@ -153,8 +153,7 @@ The AGWPE Server window now includes an integrated **Receiver Buffer**, **Audio 
 | **Integrated DSP AGC** | ✅ | ✅ |
 | **Smart Auto-Docking UI** | ❌ | ✅ |
 | **JNI File Picker / Export** | ❌ | ✅ |
-| **Tamagotchi Easter Egg** | ✅ | ✅ |
-| **Civilian Build (no crypto / no TAK)** | ✅ | N/A |
+| **Tamagotchi Easter Egg** | ✅ | ❌ |
 
 ---
 
