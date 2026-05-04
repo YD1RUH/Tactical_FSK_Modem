@@ -192,7 +192,7 @@ The AGWPE Server window now includes an integrated **Receiver Buffer**, **Audio 
 
 ## 🚀 How to Run
 
-1. **Windows**: Run `FSK_Modem_GOV.exe` (or the civilian build `.exe`).
+1. **Windows**: Run `FSK_Modem.exe`.
 2. **Android**: Install the APK, grant Microphone and Storage permissions.
 3. **Modulation**: Go to `Config > Modulation Configuration`, select FSK / 8-FSK / 16-FSK and the desired preset and FEC mode.
 4. **APRS/TNC**: Open `Config > AGWPE Configuration`, enter your callsign and port (default 8000), click **START AGWPE SERVER**, then point your APRS client to the displayed Host IP and port.
